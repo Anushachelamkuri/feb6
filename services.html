@@ -1,0 +1,159 @@
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="edgeIE=">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TRAVELLING</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    </head>
+    <body >
+    <nav class="navbar navbar-expand-lg"  id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+     <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">login</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="destination.html">destination</a></li>
+          <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav><br><br><br>
+        <section class="sectionAbout clearfix">
+            <center>
+			<h2 class="animate-character">Our services include</h2>
+            </center>
+		    <div class="container">
+				<div class="row">
+        			<div class="col-md-4 col-sm-12">
+            			<div class="serviceBox">
+                			<div class="service-icon">
+                    			<span><i class="fas fa-plane-departure"></i></span>
+                			</div>
+			                <h3 class="title">Flight Tickets</h3>
+			                <p class="description">
+			                    All the flight tickets are bought for you. We guarantee that we can find the best prices for the date you wish to travel.
+			                </p>
+            			</div>
+        			</div>
+			        <div class="col-md-4 col-sm-12">
+			            <div class="serviceBox">
+			                <div class="service-icon">
+			                    <span><i class="fas fa-bed"></i></span>
+			                </div>
+			                <h3 class="title">Accomodation</h3>
+			                <p class="description">
+			                    The accomodation is all booked for you. We offer rooms in 4-star hotels on every location you are going too visit.
+			                </p>
+			            </div>
+			        </div>
+			        <div class="col-md-4 col-sm-12">
+			            <div class="serviceBox">
+			                <div class="service-icon">
+			                    <span><i class="fas fa-tasks"></i></span>
+			                </div>
+			                <h3 class="title">What to Do</h3>
+			                <p class="description">
+			                    We offer a schedule with a list of what to do each day, so you do not get lost during your trip. However, you choose if you are going to follow the schedule or not. 
+			                </p>
+			            </div>
+			        </div>
+    			</div>
+			</div>
+		</section>
+		
+		
+        <style>
+           
+.serviceBox{
+	margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.serviceBox .service-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto 45px;
+    /*border: 2px solid rgba(0,0,0,0.7);*/
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+    z-index: 1;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.serviceBox .service-icon span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: rgba(0,0,0,0.8);
+}
+
+.serviceBox .service-icon span i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.serviceBox .title{
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+.serviceBox .description{
+    font-size: 15px;
+    color: #555;
+    padding: 0 10px;
+    margin: 0;
+}
+            .animate-character
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+        </style>
